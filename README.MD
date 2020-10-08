@@ -14,7 +14,7 @@ docker run -p 5000:80 --name privacyidea --restart=always -d \
        -v /data/privacyidea_data:/etc/mydata \
        -e PRIVACYIDEA_ADMIN_USER=admin \
        -e PRIVACYIDEA_ADMIN_PASS=your_password \
-       pasientskyhosting/ps-privacyidea
+       vinhtrieutrang/privacyidea:latest
 
 ### Install client
 wget https://files.pythonhosted.org/packages/5e/64/7ee0b5e7b68b4f7c70ce3e2945d86bfcb1579d042e41d4f64260b72b03d5/privacyideaadm-2.15.1.tar.gz
