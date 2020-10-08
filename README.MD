@@ -1,5 +1,6 @@
 # TL;DR
-{% highlight bash %}
+-----------------------
+```
 ### Install server
 docker volume create --name privacyidea_config
 docker volume create --name privacyidea_log
@@ -35,6 +36,6 @@ echo "AuthorizedKeysCommand /usr/bin/privacyidea-authorizedkeys" >> /etc/ssh/ssh
 echo "AuthorizedKeysCommandUser root" >> /etc/ssh/sshd_config
 systemctl restart sshd
 privacyidea-authorizedkeys root
+```
 
 
-{% endhighlight %}
